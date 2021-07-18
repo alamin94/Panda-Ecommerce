@@ -15,7 +15,7 @@
     <!-- navbar html part start here -->
 
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="images/logo.png" alt="" width="164" height="28">
@@ -31,13 +31,13 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Shoes</a>
+                            <a class="nav-link" href="#Shoes">Shoes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Backpack</a>
+                            <a class="nav-link" href="#Backpack">Backpack</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Subscribe</a>
+                            <a class="nav-link" href="#Subscribe">Subscribe</a>
                         </li>
                     </ul>
                 </div>
@@ -134,7 +134,7 @@
             </div>
         </section>
         <!-- Shoes part html start here  -->
-        <section class="container">
+        <section class="container" id="Shoes">
             <h2>Shoes</h2>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col">
@@ -180,7 +180,7 @@
             </div>
         </section>
         <!-- Backpack part html start here  -->
-        <section class="container my-5">
+        <section class="container my-5" id="Backpack">
             <h2>Backpack</h2>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col">
@@ -225,13 +225,21 @@
                 </div>
             </div>
         </section>
+        <!-- get intu touch part start here  -->
+        <section style="height: 300px;" id="Subscribe"
+            class="container bg-warning bg-gradient d-flex justify-content-center  align-items-center rounded-3">
+            <div>
+                <h1>LET'S STAY IN TOUCH</h1>
+                <p>Get updates on sales, specials and more</p>
+                <input type="text" placeholder="input your emai">
+                <br> <br>
+                <button type="button" class="btn btn-primary">Submit</button>
+            </div>
+        </section>
+
     </main>
-
-
-
-
-    <footer>
-
+    <footer class="mt-5 text-center">
+        <p><small>©2025. Panda Commerce. All rights reserved. Sofia, Bulgaria.</small></p>
     </footer>
     <!-- javascripter part -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
